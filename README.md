@@ -9,6 +9,17 @@ A professional collection of my **LeetCode problem solutions** written in **Pyth
   <a href="https://github.com/rathisri-a"><img src="https://img.shields.io/badge/GitHub-rathisri--a-black?logo=github"></a>
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/Daily%20Challenge-Completed-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/github/last-commit/rathisri-a/Leetcode-solutions?style=flat-square"/>
+  <img src="https://img.shields.io/github/commit-activity/m/rathisri-a/Leetcode-solutions?style=flat-square"/>
+  <img src="https://img.shields.io/github/repo-size/rathisri-a/Leetcode-solutions?style=flat-square"/>
+</p>
+
 </div>
 
 ---
@@ -52,10 +63,18 @@ Leetcode-solutions/
 
 | Difficulty | Solved |
 |------------|-------:|
-| Easy | 2 |
-| Medium | 0 |
-| Hard | 0 |
+| 🟢 Easy | 2 |
+| 🟡 Medium | 0 |
+| 🔴 Hard | 0 |
 | **Total** | **2** |
+
+---
+
+## Daily Practice
+
+- **Daily Challenge:** ✅ Completed
+- **Current Streak Goal:** 1+ problem every day
+- **Repository Status:** Actively maintained
 
 ---
 
@@ -71,6 +90,23 @@ Leetcode-solutions/
 - Dynamic Programming
 - Greedy Algorithms
 - Graph Algorithms
+
+---
+
+## Contributions
+
+This repository is primarily maintained by **Rathisri**. Contributions that improve code quality, add alternative approaches, optimize existing solutions, or enhance documentation are welcome.
+
+If you would like to contribute:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Submit a pull request
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/rathisri-a" alt="GitHub Contribution Graph"/>
+</p>
 
 ---
 
@@ -91,6 +127,8 @@ Leetcode-solutions/
 ---
 
 <div align="center">
+
+### ⭐ Daily Challenge Completed
 
 **“Consistency beats intensity.”**
 
