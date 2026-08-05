@@ -1,20 +1,26 @@
+<div align="center">
+
 # LeetCode Solutions
 
-A curated collection of my **LeetCode problem solutions** for coding interview preparation and data structures & algorithms practice.
+A professional collection of my **LeetCode problem solutions** written in **Python**, organized for interview preparation and continuous improvement in **Data Structures & Algorithms**.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/rathisri-a/Leetcode-solutions)
-![GitHub repo size](https://img.shields.io/github/repo-size/rathisri-a/Leetcode-solutions)
-![GitHub stars](https://img.shields.io/github/stars/rathisri-a/Leetcode-solutions?style=social)
+<p>
+  <a href="https://leetcode.com/u/rathisri_a/"><img src="https://img.shields.io/badge/LeetCode-Profile-orange?logo=leetcode&logoColor=white"></a>
+  <a href="https://github.com/rathisri-a"><img src="https://img.shields.io/badge/GitHub-rathisri--a-black?logo=github"></a>
+</p>
+
+</div>
 
 ---
 
-## About
+## Overview
 
-This repository contains solutions to LeetCode problems solved in **Python**, organized by problem name.
+This repository contains my accepted LeetCode solutions, automatically synchronized using **LeetHub**.  
+The goal is to maintain a consistent record of problem-solving practice and interview preparation.
 
-- **Language:** Python
-- **Platform:** LeetCode
-- **Goal:** Strengthen problem-solving skills and prepare for technical interviews
+**Language:** Python  
+**Platform:** LeetCode  
+**Repository Type:** Interview Preparation & Algorithm Practice
 
 ---
 
@@ -37,10 +43,19 @@ Leetcode-solutions/
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Python](./LeetCode/Two-Sum/) |
-| 2 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Python](./LeetCode/Move-Zeroes/) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [View](./LeetCode/Two-Sum/) |
+| 2 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [View](./LeetCode/Move-Zeroes/) |
 
-> This table will grow as I solve more problems.
+---
+
+## Problem-Solving Progress
+
+| Difficulty | Solved |
+|------------|-------:|
+| Easy | 2 |
+| Medium | 0 |
+| Hard | 0 |
+| **Total** | **2** |
 
 ---
 
@@ -52,19 +67,19 @@ Leetcode-solutions/
 - Strings
 - Linked Lists
 - Trees
-- Dynamic Programming
-- Graphs
 - Binary Search
+- Dynamic Programming
 - Greedy Algorithms
+- Graph Algorithms
 
 ---
 
-## Progress
+## Learning Goals
 
-- **Total Problems Solved:** 2
-- **Easy:** 2
-- **Medium:** 0
-- **Hard:** 0
+- Improve algorithmic thinking
+- Master common interview patterns
+- Build consistency through daily practice
+- Track progress across problem categories
 
 ---
 
@@ -75,4 +90,8 @@ Leetcode-solutions/
 
 ---
 
-⭐ If you find this repository useful, feel free to star it.
+<div align="center">
+
+**“Consistency beats intensity.”**
+
+</div>
