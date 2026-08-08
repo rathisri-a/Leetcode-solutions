@@ -1,4 +1,4 @@
-# LeetCode Solutions
+## 📊 LeetCode Stats
 
 <p align="center">
   <img src="https://github-readme-leetcode-stats.vercel.app/api?username=rathisri_a&theme=dark&border_radius=10" alt="LeetCode Stats"/>
