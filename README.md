@@ -1,43 +1,36 @@
-## 📊 LeetCode Stats
+# Hi, I'm Rathisri 👋
 
-<p align="center">
-  <img src="https://github-readme-leetcode-stats.vercel.app/api?username=rathisri_a&theme=dark&border_radius=10" alt="LeetCode Stats"/>
-</p>
+## LeetCode Progress
 
----
+![LeetCode Stats](https://leetcard.jacoblin.cool/rathisri_a?theme=dark&font=baloo&ext=heatmap)
 
-## 📌 About
-
-This repository contains my **LeetCode solutions** organized by topic.  
-I use it to practice **Data Structures & Algorithms**, improve problem-solving skills,
-and prepare for coding interviews.
+<!--STATS-->
 
 ---
 
-## 💻 Languages
+## GitHub Stats
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,c" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rathisri-a&show_icons=true&theme=tokyonight)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=rathisri-a&theme=tokyonight)
 
 ---
 
-## 📂 Repository Structure
+## Languages & Tools
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+---
+
+## Repository Structure
 
 ```text
 LeetCode/
-├── Arrays/
-├── Strings/
-├── Linked Lists/
-├── Trees/
-├── Graphs/
-├── Dynamic Programming/
-└── ...
+├── Arrays
+├── Strings
+├── Linked Lists
+├── Trees
+└── Dynamic Programming
 ```
-
----
-
-## 🔗 Connect
-
-- **GitHub:** https://github.com/rathisri-a
-- **LeetCode:** https://leetcode.com/u/rathisri_a/
