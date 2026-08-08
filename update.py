@@ -1,12 +1,13 @@
 import requests
 from pathlib import Path
 
-USERNAME = "rathisri-a"
+USERNAME = "rathisri_a"
 
 query = """
-query userProblemsSolved($username: String!) {
+query getUserProfile($username: String!) {
   matchedUser(username: $username) {
-    submitStats {
+    username
+    submitStatsGlobal {
       acSubmissionNum {
         difficulty
         count
@@ -22,7 +23,12 @@ response = requests.post(
         "query": query,
         "variables": {"username": USERNAME}
     },
-    headers={"Content-Type": "application/json"}
+    headers={
+        "Content-Type": "application/json",
+        "Referer": f"https://leetcode.com/u/{USERNAME}/",
+        "User-Agent": "Mozilla/5.0"
+    },
+    timeout=30,
 )
 
 data = response.json()
@@ -32,11 +38,9 @@ if (
     or data["data"] is None
     or data["data"]["matchedUser"] is None
 ):
-    raise Exception(
-        f"LeetCode user '{USERNAME}' not found. Check the USERNAME in update.py."
-    )
+    raise Exception(f"LeetCode user '{USERNAME}' not found.\nResponse: {data}")
 
-stats = data["data"]["matchedUser"]["submitStats"]["acSubmissionNum"]
+stats = data["data"]["matchedUser"]["submitStatsGlobal"]["acSubmissionNum"]
 
 easy = medium = hard = total = 0
 
@@ -62,14 +66,6 @@ content = f"""
 | Hard | {hard} |
 | **Total** | **{total}** |
 
-## 🧩 Skills Distribution
-
-| Category | Problems |
-|---------|---------:|
-| Easy | {easy} |
-| Medium | {medium} |
-| Hard | {hard} |
-
 ## 📅 Submission Heatmap
 
 ![LeetCode Heatmap]({heatmap})
@@ -81,8 +77,9 @@ text = readme.read_text(encoding="utf-8")
 marker = "<!--STATS-->"
 
 if marker in text:
-    text = text.replace(marker, content)
+    start = text.index(marker)
+    text = text[:start] + marker + "\n\n" + content
 else:
-    text += "\n" + content
+    text += "\n\n<!--STATS-->\n\n" + content
 
 readme.write_text(text, encoding="utf-8")
