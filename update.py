@@ -27,6 +27,15 @@ response = requests.post(
 
 data = response.json()
 
+if (
+    "data" not in data
+    or data["data"] is None
+    or data["data"]["matchedUser"] is None
+):
+    raise Exception(
+        f"LeetCode user '{USERNAME}' not found. Check the USERNAME in update.py."
+    )
+
 stats = data["data"]["matchedUser"]["submitStats"]["acSubmissionNum"]
 
 easy = medium = hard = total = 0
