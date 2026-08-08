@@ -2,8 +2,6 @@
 
 This repository contains my LeetCode solutions.
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/rathisri_a?theme=dark&font=baloo&ext=heatmap)
-
 <!--STATS-->
 
 
