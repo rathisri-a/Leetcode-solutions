@@ -1,9 +1,7 @@
 # LeetCode Solutions
 
 <p align="center">
-  <a href="https://leetcode.com/u/rathisri_a/">
-    <img src="https://github-readme-leetcode-stats.vercel.app/api?username=rathisri_a&theme=dark&border_radius=10" alt="LeetCode Stats"/>
-  </a>
+  <img src="https://github-readme-leetcode-stats.vercel.app/api?username=rathisri_a&theme=dark&border_radius=10" alt="LeetCode Stats"/>
 </p>
 
 ---
