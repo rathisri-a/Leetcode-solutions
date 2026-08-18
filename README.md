@@ -12,9 +12,9 @@
 | Difficulty | Solved |
 |-----------|-------:|
 | Easy | 23 |
-| Medium | 8 |
+| Medium | 9 |
 | Hard | 1 |
-| **Total** | **32** |
+| **Total** | **33** |
 
 ## 📅 Submission Heatmap
 
