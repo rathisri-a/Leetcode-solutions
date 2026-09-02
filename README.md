@@ -7,11 +7,3 @@
 <!--STATS-->
 
 
-## 📊 LeetCode Statistics
-
-| Difficulty | Solved |
-|-----------|-------:|
-| Easy | 26 |
-| Medium | 10 |
-| Hard | 1 |
-| **Total** | **37** |
