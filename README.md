@@ -15,7 +15,3 @@
 | Medium | 10 |
 | Hard | 1 |
 | **Total** | **37** |
-
-## 📅 Submission Heatmap
-
-![LeetCode Heatmap](https://leetcard.jacoblin.cool/rathisri_a?theme=dark&ext=heatmap)
